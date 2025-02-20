@@ -1,16 +1,16 @@
 devolver un mensaje específico para los profesores, 
-#indicando que tienen prioridad al solicitar un libro.
+
     def prestar(self, libro):
         return f'El profesor {self.nombre} ha solicitado prestar el libro: {libro.titulo} con prioridad.'
 
 
-# Ejemplo de uso
+
 if _name_ == "_main_":
     libro1 = Libro("1984", "George Orwell", "123456789")
     revista1 = Revista("National Geographic", "Varios", "987654321", 2023)
 
-    estudiante = Estudiante("Juan Pérez")
-    profesor = Profesor("Dr. María López")
+    estudiante = Estudiante("mario Pérez")
+    profesor = Profesor("Dr. Mariana  López")
 
     print(libro1.mostrar_info())
     print(revista1.mostrar_info())
